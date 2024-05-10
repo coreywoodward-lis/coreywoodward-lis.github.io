@@ -7,11 +7,16 @@
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      padding: 20px;
+      padding: 0;
     }
     .banner {
-    margin-bottom: 40px;
-    text-align: right;
+      margin-bottom: 40px;
+      text-align: center;
+      background-color: #f0f0f0;
+      display: inline-block;
+      height: 25px;
+      width: 100%;
+      padding-top: 2px;
     }
     .container {
       max-width: 1200px;
@@ -23,7 +28,7 @@
     }
     .header p {
       font-size: 18px;
-  	  background-color: #f0f0f0;
+      background-color: #f0f0f0;
       display: inline-block;
       padding: 5px 10px;
     }
@@ -48,10 +53,15 @@
       flex-wrap: wrap;
       justify-content: space-between;
       margin-top: 20px;
+      background-color: #f5f5f5;
+      padding: 20px;
     }
     .service {
       flex-basis: calc(33.33% - 20px);
       margin-bottom: 20px;
+      background-color: white;
+      padding: 20px;
+      box-sizing: border-box;
     }
     .service img {
       width: 100%;
@@ -61,9 +71,8 @@
       display: flex;
       justify-content: space-between;
       margin-top: 20px;
-	}
-
-  	.button {
+    }
+    .button {
       display: inline-block;
       padding: 10px 20px;
       text-decoration: none;
@@ -71,20 +80,18 @@
       font-weight: bold;
       border-radius: 5px;
       transition: background-color 0.3s ease;
-  	}
-
-  	.call-button {
+    }
+    .call-button {
       background-color: #4CAF50;
       color: white;
-  	}
-  	.call-button:hover {
+    }
+    .call-button:hover {
       background-color: #45a049;
-  	}
-  	.email-button {
+    }
+    .email-button {
       background-color: #2196F3;
       color: white;
-  	}
-
+    }
     .email-button:hover {
       background-color: #1e88e5;
     }
@@ -96,7 +103,10 @@
         padding-right: 0;
         margin-bottom: 20px;
       }
-
+      .service {
+        flex-basis: 100%;
+      }
+    }
   </style>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto" rel="stylesheet">
@@ -106,13 +116,12 @@
     <p>Wandsworth SW18 · Tooting SW17 · Earlsfield SW18 · Balham SW12 · Wimbledon SW20 · Raynes Pk SW19 · Surrounding areas</p>
   </div>
   <div class="container">
-   
     <div class="content">
       <div class="main-text">
         <div class="header">
-      <h1>LEWIS HOME SERVICE & MAINTENANCE</h1>
-      <p>Local experts in your neighbourhood</p>
-    </div>
+          <h1>LEWIS HOME SERVICE & MAINTENANCE</h1>
+          <p>Local experts in your neighbourhood</p>
+        </div>
         <p>Our small, highly experienced SW London team provides a personalized service, on time and on budget.</p>
         <ul>
           <li><span class="tick-icon"></span> Free quotes</li>
@@ -135,17 +144,52 @@
       <div class="service">
         <h3>Handy-man</h3>
         <p>Multi skilled handyman service equipped to deal with any of the jobs around the home. Everything from fixing doors and locks to installing bookshelves and blinds.</p>
-        <img src="handyman.jpg" alt="Handyman">
+        <img src="placeholder-image.jpg" alt="Placeholder Image">
       </div>
       <div class="service">
         <h3>Plumbing</h3>
         <p>Dripping tap, faulty loo, leaking pipes, repair or replacement of shower controls to a complete new kitchen we do it all. Highly skilled experienced tradesmen will do your job fast and well saving you time money and frustration.</p>
-        <img src="plumbing.jpg" alt="Plumbing">
+        <img src="placeholder-image.jpg" alt="Placeholder Image">
       </div>
       <div class="service">
         <h3>Painting Repair</h3>
         <p>All painting and deco repair from a small job like painting a door to a complete re-paint for the exterior of the property.</p>
-        <img src="painting.jpg" alt="Painting">
+        <img src="placeholder-image.jpg" alt="Placeholder Image">
+      </div>
+      <div class="service">
+        <h3>Plastering repairs, walls and ceilings</h3>
+        <p>All plastering repairs. We are clean, quick and professional.</p>
+        <img src="placeholder-image.jpg" alt="Placeholder Image">
+      </div>
+      <div class="service">
+        <h3>Gutters and flat roof repairs</h3>
+        <p>Guttering repair or replacement. Flat roof repairs or replacement. Full gurantee give on work. Insurance quote welcome
+</p>
+        <img src="placeholder-image.jpg" alt="Placeholder Image">
+      </div>
+      <div class="service">
+        <h3>Electrical Repair</h3>
+        <p>All electrical repairs. Fault finding. Replacement fittings. New plugs and switches etc.
+</p>
+        <img src="placeholder-image.jpg" alt="Placeholder Image">
+      </div>
+      <div class="service">
+        <h3>Heating Repair & installation</h3>
+        <p> All repairs to heating and hot water systems including electrical controls and thermostats. New boilers fitted by our Gas safe engineer. Our exchange boiler quotes are very keen and cheaper than many other contractors. Ask for a quote!  </p>
+        <img src="placeholder-image.jpg" alt="Placeholder Image">
+      </div>
+      <div class="service">
+        <h3>Wall ceiling repairs</h3>
+        <p>Clean, quick, done!
+</p>
+        <img src="placeholder-image.jpg" alt="Placeholder Image">
+      </div>
+      <div class="service">
+        <h3>Contract Maintenance</h3>
+        <p>Contract maintenance on Small commercial & let properties.</p>
+        <p>There is nothing more valuable than the time, money and trouble a well maintained property saves.</p>
+        <p>We can provide a tailor made package for your property. Contact today for a free quote.</p>
+        <img src="placeholder-image.jpg" alt="Placeholder Image">
       </div>
     </div>
   </div>
